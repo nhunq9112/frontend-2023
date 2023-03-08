@@ -1,0 +1,49 @@
+body{
+    display: inline-block;
+    margin: 0;
+    width: 100%;
+    
+}
+
+.header{
+    background-color: rgb(146, 74, 74);
+    text-align: center;
+    height: 50px;
+}
+
+h1{
+    padding-top: 5px;
+}
+
+.main{
+    display: flex;
+    /*flex-direction: row;
+    row-gap: 30px;*/
+    border: 1px solid;
+    height: 600px;
+}
+
+.scroll{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid;
+    width: 50%;
+    overflow-y: scroll;
+}
+
+.item{
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    border: 1px solid;
+    margin: 20px;
+}
+
+.map{
+    display: flex;
+    background-color: white;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
